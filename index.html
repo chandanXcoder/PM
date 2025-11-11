@@ -64,22 +64,49 @@
             </div>
         </section>
 
-        <section class="contact" id="contact">
-            <h3>संपर्क करें</h3>
-            
-           <a href="tel:9340264170"><button>📞 कॉल करें</button></a>
-            <a href="https://wa.me/919340264170" target="_blank"><button>📲 व्हाट्सएप</button></a>
-            <a href=" https://www.facebook.com/profile.php?id=100008608667003" target="_blank"><button>
-             🄵 facebook </a></button>
-                
-           
+        <  <!DOCTYPE html>
+        <html lang="hi">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>संपर्क करें</title>
+        
+          <!-- Font Awesome CDN -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        
+          <!-- External CSS -->
+          <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+          
+          <section class="contact" id="contact">
+            <h3>📞 संपर्क करें</h3>
+        
+            <div class="contact-buttons">
+              <a href="tel:9340264170" class="btn call">
+                <i class="fas fa-phone"></i> कॉल करें
+              </a>
+              <a href="https://wa.me/919340264170" target="_blank" class="btn whatsapp">
+                <i class="fab fa-whatsapp"></i> व्हाट्सएप
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100008608667003" target="_blank" class="btn facebook">
+                <i class="fab fa-facebook"></i> फेसबुक
+              </a>
+            </div>
+        
             <form>
-                <input type="text" placeholder="आपका नाम">
-                <input type="text" placeholder="मोबाइल नंबर">
-                <textarea placeholder="संदेश लिखें..."></textarea>
-                <button type="submit">भेजें</button>
+              <input type="text" placeholder="आपका नाम" required>
+              <input type="text" placeholder="मोबाइल नंबर" required>
+              <textarea placeholder="संदेश लिखें..." required></textarea>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> भेजें
+              </button>
             </form>
-        </section>
+          </section>
+        
+        </body>
+        </html>
+        
 
         <section class="testimonials" id="testimonials">
             <h3>लाभार्थियों की राय</h3>

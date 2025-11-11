@@ -130,3 +130,108 @@ blockquote {
     margin-bottom: 15px;
     display: block;
 }
+
+
+
+/* Contact Section CSS */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .contact h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-buttons {
+    margin-bottom: 25px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+  
+  .btn i {
+    margin-right: 8px;
+  }
+  
+  .call {
+    background: #007bff;
+  }
+  .call:hover {
+    background: #0056b3;
+  }
+  
+  .whatsapp {
+    background: #25D366;
+  }
+  .whatsapp:hover {
+    background: #1da851;
+  }
+  
+  .facebook {
+    background: #3b5998;
+  }
+  .facebook:hover {
+    background: #2d4373;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  form input,
+  form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  }
+  
+  .submit-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: #0056b3;
+  }
+  
